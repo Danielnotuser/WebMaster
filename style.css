@@ -1,3 +1,53 @@
-img {
-    width: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gideon+Roman&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+    font-family: Yanone Kaffeesatz;
+    background-color: rgb(172, 172, 207);
+    font-size: 22px;
+    color: black;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+}
+.header {
+    background-color: rgb(129, 129, 179);
+    padding: 5px;
+}
+.header > li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 370px;
+}
+.header > li > a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.header > li > a:hover {
+    color: white;
+
+}
+.goods {
+    list-style: none;
+}
+.goods > li {
+    display: inline-block;
+    margin-right: 100px;
+}
+.sharks {
+    width: 400px;
+    height: 300px;
+    outline: 3px solid rgb(110, 110, 153);
+}
+
+.bigsh {
+    margin-left: 350px;
+    outline: 5px solid rgb(110, 110, 153);
+}
+.cost {
+    font-size: 40px;
+    color:rgb(80, 109, 43);
+    text-align: center;
 }
