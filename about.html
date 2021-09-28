@@ -8,33 +8,43 @@
     <title>About. Shark shop</title>
 </head>
 <body> 
-   <h1 class="title">Магазин акул "Shark Shop"</h1> 
-   <ul class="header">
-       <li><a href="catalog.html">Каталог</a></li>
-       <li><a href="main.html">Главная</a></li>
-       <li><a href="#">О Нас</a></li>
-   </ul>
+    <header class="header-margin">
+        <ul class="title">
+            <li><img src="images/shark-minilogo.jpg" alt="shark-logo.jpg" class="logo"></li>
+            <li><h1>Магазин акул "Shark Shop"</h1></li>
+            <li><img src="images/shark-minilogo.jpg" alt="shark-logo.jpg" class="logo"></li>
+        </ul>
+        <ul class="header">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="#">О Нас</a></li>
+        </ul>
+    </header> 
    <hr>
-   <h3>Мы являемся крупнейшими поставщиками акул по всей стране и миру.</h3> 
-       <h3>На данный момент только у нас вы найдете такое количество различных видов.</h3>
-       <h3>Все виды содержатся в хороших условиях, о них заботятся наши квалифицированные специалисты.</h3>
+   <div class="container">
+        <h3>Мы являемся крупнейшими поставщиками акул по всей стране и миру.</h3> 
+            <h3>На данный момент только у нас вы найдете такое количество различных видов.</h3>
+            <h3>Все виды содержатся в хороших условиях, о них заботятся наши квалифицированные специалисты.</h3>
+        <hr>
+        <form class="form-about">
+            <img src="images/shark-minilogo.jpg" alt="shark-logo.jpg">
+            <legend>Что вы думаете о нашем сайте и товарах?</legend>
+            Представьтесь: <input type="name" name="name" placeholder="Ваше имя"> <br>
+            Ваша почта для обратной связи: <input type="email" name="email" placeholder="Ваша почта"> <br>
+            Оставьте ваш отзыв, пожелания или предложения: <br>
+            <textarea name="review" cols="68" rows="10"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+            </form>
+        <hr>
+        <h3>Адрес Shark Shop на карте:</h3>
+   </div>
+   <iframe src="https://yandex.ru/map-widget/v1/?um=mymaps%3APZ8Vd2x6X_5VZNRxcFDHQYjMNxl9v8v0&amp;source=constructor" width="100%" height="537" frameborder="0"></iframe>
    <hr>
-   <form>
-       <img src="images/shark-minilogo.jpg" alt="shark-logo.jpg">
-       <legend>Что вы думаете о нашем сайте и товарах?</legend>
-       Представьтесь: <input type="name" name="name" placeholder="Ваше имя"> <br>
-       Ваша почта для обратной связи: <input type="email" name="email" placeholder="Ваша почта"> <br>
-       Оставьте ваш отзыв, пожелания или предложения: <br>
-       <textarea name="review" cols="68" rows="10"></textarea>
-       <br>
-       <input type="submit">
-       <input type="reset">
-    </form>
-   <hr>
-   <h3>Адрес Shark Shop на карте:</h3>
-   <iframe src="https://yandex.ru/map-widget/v1/?um=mymaps%3APZ8Vd2x6X_5VZNRxcFDHQYjMNxl9v8v0&amp;source=constructor" width="692" height="537" frameborder="0"></iframe>
-   <hr>
-   <h4>Все права почти защищены.</h4>
-   <h4>Контакты: sharkemail@mail.ru</h4>
+   <footer class="footer">
+        <h4>Все права почти защищены.</h4>
+        <h4>Контакты: sharkemail@mail.ru</h4>
+   </footer>
 </body>
 </html>

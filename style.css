@@ -6,9 +6,25 @@ body {
     font-size: 22px;
     color: black;
 }
-.title {
+.header-margin {
+    margin: 10px 0px;
+}
+.footer {
+    margin: 20px 0px;
+    background-color: rgb(129, 129, 179);
+    padding: 1px 10px;
+}
+.title > li{
+    display: inline-block;
+    list-style: none;
+}
+.title > li > h1 {
     text-align: center;
     font-size: 50px;
+    margin: 0px 600px;
+}
+.logo {
+    height: 60px;
 }
 .header {
     background-color: rgb(129, 129, 179);
@@ -25,9 +41,16 @@ body {
     color: black;
     list-style: none;
 }
-.header > li > a:hover {
+.gif {
+    margin: 0px 200px;
+}
+.internal-link {
+    text-decoration: none;
+    color: rgb(94, 94, 230);
+    list-style: none;
+}
+.header > li > a:hover, .internal-link:hover {
     color: white;
-
 }
 .goods {
     list-style: none;
@@ -49,5 +72,18 @@ body {
 .cost {
     font-size: 40px;
     color:rgb(80, 109, 43);
+    text-align: center;
+}
+
+.container {
+    margin: 30px 500px;
+    text-align: center;
+}
+
+.container-cat {
+    margin: 30px 30px; 
+}
+
+.form-about {
     text-align: center;
 }
