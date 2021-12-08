@@ -1,3 +1,93 @@
-img {
-    width: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gideon+Roman&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+body {
+    font-family: Yanone Kaffeesatz;
+    background-color: rgb(172, 172, 207);
+    font-size: 22px;
+    color: black;
+}
+.header-margin {
+    margin: 10px 0px;
+}
+.footer {
+    margin: 20px 0px;
+    background-color: rgb(129, 129, 179);
+    padding: 1px 10px;
+}
+.title > li{
+    display: inline-block;
+    list-style: none;
+}
+.title > li > h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 600px;
+}
+.logo {
+    height: 60px;
+}
+.header {
+    background-color: rgb(129, 129, 179);
+    padding: 5px;
+}
+.header > li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 370px;
+}
+.header > li > a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.gif {
+    margin: 0px 200px;
+}
+.internal-link {
+    text-decoration: none;
+    color: rgb(94, 94, 230);
+    list-style: none;
+}
+.header > li > a:hover, .internal-link:hover {
+    color: white;
+}
+.goods {
+    list-style: none;
+}
+.goods > li {
+    display: inline-block;
+    margin-right: 100px;
+}
+.sharks {
+    width: 400px;
+    height: 300px;
+    outline: 3px solid rgb(110, 110, 153);
+}
+
+.bigsh {
+    outline: 5px solid rgb(110, 110, 153);
+}
+.cost {
+    font-size: 40px;
+    color:rgb(80, 109, 43);
+    text-align: center;
+}
+
+.container {
+    margin: 30px 500px;
+    text-align: center;
+}
+
+.container-cat {
+    margin: 30px 30px; 
+}
+
+.container-page {
+    margin: 30px 360px;
+    text-align: center;
+}
+
+.form-about {
+    text-align: center;
 }

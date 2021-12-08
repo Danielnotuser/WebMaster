@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="images/shark-logo.jpg" type="image/jpg">
-    <link rel="stylesheet" href="stylemain.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Главная. Shark shop</title>
 </head>
 <body>
-    <h1>Магазин акул "Shark Shop"</h1>
+    <header class="header-margin">
+        <ul class="title">
+            <li><img src="images/shark-minilogo.jpg" alt="shark-logo.jpg" class="logo"></li>
+            <li><h1>Магазин акул "Shark Shop"</h1></li>
+            <li><img src="images/shark-minilogo.jpg" alt="shark-logo.jpg" class="logo"></li>
+        </ul>
+        <ul class="header">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+        </ul>
+    </header>
     <hr>
-    <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="about.html">О нас</a></li>
-    </ul>
-    <h3>Данный магазин посвящен продаже различных видов акул, как редких, так и часто встречаемых.</h3>
-    <h3>Ознакомиться с ассортиментом вы можете в <a href="catalog.html">Каталоге</a>.</h3>
-    <img src="icon.gif" alt="shitty shark">
+    <div class="container">
+        <h3>Данный магазин посвящен продаже различных видов акул, как редких, так и часто встречаемых.</h3>
+        <h3>Ознакомиться с ассортиментом вы можете в <a class="internal-link" href="catalog.html">Каталоге</a>.</h3>
+        <img class="gif" src="icon.gif" alt="shitty shark">
+    </div>
     <hr>
-    <h4>Все права почти защищены.</h4>
-    <h4>Контакты: sharkemail@mail.ru</h4>
+    <footer class="footer">
+        <h4>Все права почти защищены.</h4>
+        <h4>Контакты: sharkemail@mail.ru</h4>
+    </footer>
 </body>
 </html>
